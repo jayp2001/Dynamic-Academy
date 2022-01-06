@@ -1,13 +1,10 @@
-import React from "react"
-import {
-    Route,
-    Switch,
-    Redirect
-  } from "react-router-dom"
+import React from "react";
+import { Route, Switch, Redirect } from "react-router-dom";
 
-  const mainPage = (props) => {
+export default function MainPage() {
+  return (
     <div>
-        <h3>Jay parmar</h3>
+      <p>HomePage</p>
     </div>
-  }
-  export default mainPage;
+  );
+}
